@@ -9,6 +9,8 @@ nsingh9@ncsu.edu
 
 ### OO Patterns
 #### Creational Patterns
+* **Builder Pattern**:
+* **Singleton Pattern**: 
 
 #### Structural Patterns
 
