@@ -14,7 +14,9 @@ nsingh9@ncsu.edu
 * **Singleton Pattern**: When a class wants to ensure that there is only one instance of it which can be accessed only from one single point of access, it enforces the creation of Singleton Pattern. It is done by creating a public accessor function implementing lazy initialization approach to create a private static instance of the object. The constructor of the function is hidden by making it private and the public accessor function returns the static instance if the object is already created, otherwise, creates the first object and then returns it.
 
 #### Structural Patterns
-* 
-*
+* **Adapter Pattern**: When the functionality of an already existing system is intended to be used in a new way which requires some kind of intermediate layer that maps the new input system to the old systems' expected set of inputs. A wrapper class is used to wrap an old interface to provide a new interface which accepts inputs according to the new system but provides the same functionality as that of the old class.
+
+* **Decorator Pattern**: This pattern allows to add functionality to a class at runtime without the use of inheritance. We do this by creating an abstract wrapper interface from which both the decorator and the core object inherit. The core object becomes hidden inside a decorator object with this pattern. 
+
 #### Behavioral Patterns
 
