@@ -22,3 +22,7 @@ nsingh9@ncsu.edu
 * **Iterator Pattern**: This pattern is used to sequentially iterate over the elements of an object without exposing the underlying representation. To iterate over the List data structure for example, we delegate the work to an Iterator object that provides a common way to iterate sequentially without List having to expose its inner structure to provide the same functionality.
 
 * **Memento Pattern**: This pattern is useful when we want to provide the functionality to undo or rollback the current state to some previous state without providing access to private variables and hence, violating encapsulation. This is done with the help of three objects: caretaker, originator, ,memento. Originator is the object whose internal state needs to be restored. Before making any new changes to the originator, caretaker asks for a memento object and then makes the changes to the originator. To undo the changes now, memento object is returned to the originator. 
+
+
+### SELENIUM
+[LINK TO WebTest.java][https://github.ncsu.edu/nsingh9/CSC510-HW2/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java]
