@@ -25,4 +25,4 @@ nsingh9@ncsu.edu
 
 
 ### SELENIUM
-[LINK TO WebTest.java][https://github.ncsu.edu/nsingh9/CSC510-HW2/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java]
+[LINK TO WebTest.java](https://github.ncsu.edu/nsingh9/CSC510-HW2/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java)
