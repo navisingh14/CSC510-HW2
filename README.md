@@ -26,6 +26,8 @@ Example: This is most commonly used in the case of creating a logger class which
 
 ### Free Style Patterns:
  * **Model View Controller Pattern**: MVC is an architectural pattern that divides the implementation of user interface into three interconnected parts. The three representations are the ways the information is received from the user, the way information is sent back to the user, and the way information is internally represented. This decoupling helps in code reuse and parallel development. This is now commonly used in languages and frameworks aimed at developing web applications like Ruby on Rails, Java Struts, etc.
+ * **Reference Count (Linux Kernel design patterns)**: The idea of a reference counter is to manage the lifetime of an object by incrementing whenever a new reference is taken and decrementing when a reference is released. When this counter reaches zero any resources used by the object (such as the memory used to store it) can be freed. The mechanisms for managing reference counts seem quite straightforward. However there are some subtleties that make it quite easy to get the mechanisms wrong. Partly for this reason, the Linux kernel has (since 2004) a data type known as "kref" with associated support routines. As noted above, names for design patterns are very valuable and just providing that name for kernel developers to use is a significant benefit for reviewers. This inclusion of kref in the Linux kernel gives both a tick and a cross to the kernel in terms of explicit support for design patterns. A tick is deserved as the kref clearly embodies an important design pattern, is well documented, and is clearly visible in the code when used. ( [source](https://lwn.net/Articles/336224/)]
+ * ****:
 
 
 ### SELENIUM
