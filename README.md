@@ -23,6 +23,9 @@ nsingh9@ncsu.edu
 
 * **Memento Pattern**: This pattern is useful when we want to provide the functionality to undo or rollback the current state to some previous state without providing access to private variables and hence, violating encapsulation. This is done with the help of three objects: caretaker, originator, ,memento. Originator is the object whose internal state needs to be restored. Before making any new changes to the originator, caretaker asks for a memento object and then makes the changes to the originator. To undo the changes now, memento object is returned to the originator. 
 
+### Free Style Patterns:
+ * **Model View Controller Pattern**: MVC is an architectural pattern that divides the implementation of user interface into three interconnected parts. The three representations are the ways the information is received from the user, the way information is sent back to the user, and the way information is internally represented. This decoupling helps in code reuse and parallel development. This is now commonly used in languages and frameworks aimed at developing web applications like Ruby on Rails, Java Struts, etc.
+
 
 ### SELENIUM
 [LINK TO WebTest.java](https://github.ncsu.edu/nsingh9/CSC510-HW2/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java)
